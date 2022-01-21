@@ -1,0 +1,17 @@
+/* @font-face {
+    font-family: 'HandWritten' ;
+    src: url('Handwritten.ttf') format('truetype');
+} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+h1{
+    font-family: 'HandWritten';
+    font-size: 100px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.897);
+}
