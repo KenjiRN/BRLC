@@ -2,16 +2,20 @@
     font-family: 'HandWritten' ;
     src: url('Handwritten.ttf') format('truetype');
 } */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: chartreuse;
+}
+header{
+    width: 100[x];
+    height: 100px;
+    border: chartreuse;
+}
 
-}
-h1{
-    font-family: 'HandWritten';
-    font-size: 100px;
-}
+
 body{
     background-color: rgba(0, 0, 0, 0.897);
 }
