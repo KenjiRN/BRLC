@@ -1,21 +1,93 @@
-/* @font-face {
-    font-family: 'HandWritten' ;
-    src: url('Handwritten.ttf') format('truetype');
-} */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Poppins', sans-serif;
-    color: chartreuse;
+    font-family: 'Poppins', sans-serif; 
 }
 header{
-    width: 100[x];
-    height: 100px;
-    border: chartreuse;
+    height: 70px;
+    background-color: rgb(97, 30, 30);
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0%;
+    z-index: 1;
 }
-
-
+nav{
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    border-width: 2px;
+    border-color: darkgoldenrod;
+    border-style: solid;
+}
+li{
+    list-style-type: none;
+    padding: 20px;
+    padding-left: 280px;
+    text-decoration: none;
+}
+.menu{
+    text-decoration: none;
+    color: white;
+}
+.menu:hover{
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+.menu:active{
+    color: turquoise;
+}
+.logo{
+    /* border-width: 2px;
+    border-color: darkgoldenrod;
+    border-style: solid; */
+    width: 40px;
+    height: 59px;
+    text-align: center; 
+    padding-top: 10px;
+}
 body{
-    background-color: rgba(0, 0, 0, 0.897);
+    /* background-color: rgba(0, 0, 0, 0.897); */
+    background-color: #08070b;
+    color: white;
+
+    border-width: 2px;
+    border-color: rgb(252, 17, 115);
+    border-style: solid;
+}
+section{
+    margin:10px;
+}
+section > p{
+    margin: 15px 0px 15px 0px;
+       text-align: justify;
+       text-indent: 30px;
+       line-height: 2em;
+       padding-right: 10px;
+       padding: 10px;
+}
+.first{
+    border-width: 2px;
+    border-color: rgb(228, 252, 17);
+    border-style: solid;
+    margin-top:70px;
+}
+footer{
+    height:30px;
+    /* border-width: 2px;
+    color: rgba(181, 252, 17, 0.692);
+    border-style: solid;
+    border-color: cornflowerblue; */
+
+    background-color:#010e249d ;
+    text-align: center; 
+}
+.foot{
+    text-decoration:none;
+    color: rgb(214, 22, 54);
 }
