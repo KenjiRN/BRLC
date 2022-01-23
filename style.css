@@ -18,8 +18,9 @@ nav{
     position:absolute;
     top: 0px;
     right: 0px;
-    color: white;
     display: flex;
+
+    color: white;
     font-size: 18px;
     border-width: 2px;
     border-color: darkgoldenrod;
@@ -46,10 +47,14 @@ li{
     /* border-width: 2px;
     border-color: darkgoldenrod;
     border-style: solid; */
-    width: 40px;
+    width: 60px;
     height: 59px;
     text-align: center; 
     padding-top: 10px;
+
+    font-weight: 900;
+    font-size: 32px;
+    
 }
 body{
     /* background-color: rgba(0, 0, 0, 0.897); */
