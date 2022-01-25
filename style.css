@@ -13,6 +13,7 @@ header{
     left: 0px;
     top: 0%;
     z-index: 1; */
+    /* position: fixed; */
 }
 nav{
     display: flex;
@@ -20,6 +21,7 @@ nav{
     align-items: center;
     height: 9vh;    /*SE ADAPTA A TELA, SENDO QUE 100VH COBRE A JANELA INTEIRA*/
     background-color: rgb(251, 255, 13);
+    
 }
 .nav-list{
     /* position:absolute; */
@@ -179,7 +181,7 @@ section > p{
 }
 .first{
     background-image: url(img/Imagem\ de\ Leonhard\ Niederwimmer\ por\ Pixabay\ .jpg);
-    margin-top:70px;   /*PRECISA-SE DESTE PARA OCUPAR O ESPAÇO DO MENUDE 70PX*/
+    /* margin-top:70px;   PRECISA-SE DESTE PARA OCUPAR O ESPAÇO DO MENUDE 70PX */
 }
 .seg{
     
